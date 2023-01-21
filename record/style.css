@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .btn {
+        @apply px-2 py-1 rounded ring-2 cursor-pointer transition-all duration-300 hover:ring-offset-4 focus:ring-offset-2 disabled:ring-offset-0 disabled:bg-gray-400 disabled:text-gray-600 disabled:cursor-not-allowed	
+    }
+    .btn-red {
+        @apply text-red-700 bg-red-200 ring-red-500 hover:bg-red-400
+    }
+    .btn-blue {
+        @apply text-blue-700 bg-blue-200 ring-blue-500  hover:bg-blue-400
+    }
+    .btn-green {
+        @apply text-green-700 bg-green-200 ring-green-500  hover:bg-green-400
+    }
+}

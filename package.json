@@ -1,0 +1,16 @@
+{
+  "name": "extensions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "pnpx tailwindcss -i ./record/style.css -o ./record/popup.css --watch",
+   "build": "pnpx tailwindcss -i ./record/style.css -o ./record/popup.css" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.2"
+  }
+}

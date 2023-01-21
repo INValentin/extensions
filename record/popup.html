@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body class="flex items-center justify-center p-0 m-0 ">
+    <main class="w-96 flex flex-col h-screen max-h-40 rounded bg-red-900/90 p-2">
+        <div id="status"
+            class="relative flex-col flex items-center justify-center flex-1 p-2 text-sm font-bold text-gray-700 bg-red-300 rounded-md">
+            Click Start To Record
+        </div>
+        <div class="flex gap-2 p-2 justify-center items-center">
+            <button id="start" class="btn btn-green">Start</button>
+            <button disabled id="pause" class="btn btn-blue">Pause</button>
+            <button disabled id="stop" class="btn btn-red">Stop</button>
+            <button disabled id="download" class="btn btn-blue">Download</button>
+        </div>
+    </main>
+    </main>
+    <script src="./popup.js" type="module" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Tabs Manager",
+    "version": "1.0",
+    "description": "Helps you manage tab, and be more productive.",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": ["https://developer.chrome.com/*"],
+    "permissions": ["tabGroups"]
+}

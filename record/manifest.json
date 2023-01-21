@@ -1,0 +1,40 @@
+{
+    "name": "URecord",
+    "manifest_version": 3,
+    "description": "U Audio Recorder",
+    "version": "1.0",
+    "background": {
+      "service_worker": "worker.js"
+    },
+    "icons": {
+        "128": "images/icon.png"
+    },
+    "action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html"
+    },
+    "host_permissions": ["https://open.spotify.com/*"],
+    "externally_connectable": {
+      "ids": [
+        "jephhjbfeikagiikmfgmgepenchelebh"
+      ],
+
+      "matches": ["https://open.spotify.com/*"]
+    },
+
+    "permissions": [
+        "activeTab",
+        "tabCapture",
+        "tabs",
+        "scripting",
+        "downloads"
+    ],
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+Shift+R",
+                "mac": "Command+Shift+R"
+            }
+        }
+    }
+}
